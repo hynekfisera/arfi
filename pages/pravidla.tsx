@@ -6,7 +6,7 @@ import Content from "../components/Content";
 export default function Pravidla({ content }: { content: string }) {
   return (
     <>
-      <NextSeo title="Informace" description="Informace o Arfi Discord serveru." />
+      <NextSeo title="Pravidla" description="Pravidla Arfi Discord serveru." />
       <Content content={content} />
     </>
   );
