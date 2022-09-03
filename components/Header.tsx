@@ -14,7 +14,7 @@ export default function Header() {
         <div className="h-10 w-10 sm:h-12 sm:w-12">
           <Link href="/">
             <a className="hover:opacity-90 transition duration-200">
-              <Image src={ArfiLogo} alt="Arfi logo" layout="responsive" />
+              <Image src={ArfiLogo} alt="Arfi logo" layout="responsive" priority={true} />
             </a>
           </Link>
         </div>
