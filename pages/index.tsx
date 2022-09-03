@@ -60,7 +60,7 @@ const Home: NextPage = () => {
     <main>
       <section className="bg-gradient-to-b from-gray-700 to-gray-900">
         <div className="max-w-screen-xl mx-auto pt-32 pb-20 md:pt-40 flex flex-col gap-8 px-4 xl:px-0">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-center !leading-snug bg-gradient-to-br from-red-400 to-fuchsia-600 bg-clip-text text-transparent max-w-5xl mx-auto">Nejrychlejší a nejjednodušší návody na weby, hry a servery.</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-center !leading-snug bg-gradient-to-br from-red-400 to-pink-600 bg-clip-text text-transparent max-w-5xl mx-auto">Nejrychlejší a nejjednodušší návody na weby, hry a servery.</h1>
           <p className="text-lg sm:text-xl text-center !leading-relaxed text-gray-400 max-w-4xl mx-auto">
             Ať už se chcete naučit programovat Minecraft pluginy, psát webové stránky, pracovat s Photoshopem nebo si třeba vytvořit a nastavit Discord server - a to vše bez sledování zbytečně natáhlého obsahu nad 10 minut - tak jste na tom správném místě.
           </p>
