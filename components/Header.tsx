@@ -9,7 +9,7 @@ import ArfiLogo from "../public/arfiWhite.svg";
 
 export default function Header() {
   return (
-    <header className="absolute top-0 left-0 right-0 py-4 xl:py-8">
+    <header className="absolute top-0 left-0 right-0 py-6 px-4 xl:py-8 xl:px-0">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 xl:px-0">
         <div className="h-10 w-10 sm:h-12 sm:w-12">
           <Link href="/">

@@ -95,7 +95,7 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className="bg-gray-900">
-        <div className="max-w-screen-xl mx-auto py-16 px-4 xl:px-0 grid gap-4 md:grid-cols-2">
+        <div className="max-w-screen-xl mx-auto py-16 px-4 xl:px-0 grid gap-16 md:gap-8 md:grid-cols-2">
           <div id="discord" className="flex flex-col gap-4">
             <h2 className="text-3xl md:text-4xl text-gray-200">Discord server</h2>
             <p className="sm:text-lg text-gray-300">Kromě YouTube kanálu mám také komunitní Discord server kde případně poskytujeme pomoc k videím pokud by vám něco nefungovalo nebo se tam prostě můžete pobavit o programování a sdílet na čem pracujete vy.</p>
