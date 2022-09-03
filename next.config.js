@@ -14,6 +14,16 @@ const nextConfig = {
         destination: "/#playlist",
         permanent: true,
       },
+      {
+        source: "/youtube",
+        destination: "https://youtube.com/phpMyArfi",
+        permanent: true,
+      },
+      {
+        source: "/donate",
+        destination: "https://streamelements.com/arfilive/tip",
+        permanent: true,
+      },
     ];
   },
 };
