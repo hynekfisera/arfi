@@ -133,6 +133,12 @@ const Home: NextPage = () => {
               </li>
               <li>Riot Games</li>
               <li>NEFFEX</li>
+              <li>
+                Our Last Night{" "}
+                <a className="text-rose-400 underline" href="https://twitter.com/olnband/status/1386332961260417024" target="_blank" rel="noreferrer noopener">
+                  (safe pouze pro Twitch!)
+                </a>
+              </li>
             </ul>
             <a className="btn btn-cta mr-auto" href="https://open.spotify.com/playlist/5TUfJmnXNJIY8x97niQ4xJ?si=61c1e739a2414fe4" target="_blank" rel="noreferrer noopener">
               <FontAwesomeIcon icon={faSpotify} /> Spotify
