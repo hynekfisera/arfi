@@ -21,7 +21,7 @@ const nextConfig = {
       },
       {
         source: "/donate",
-        destination: "https://streamelements.com/arfilive/tip",
+        destination: "https://hynekfisera.cz/donate",
         permanent: true,
       },
     ];
