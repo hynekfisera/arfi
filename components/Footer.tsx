@@ -35,8 +35,8 @@ const linkGroups = [
 export default function Footer({}: Props) {
   return (
     <footer className="bg-gray-900 py-16">
-      <div className="max-w-screen-lg mx-auto px-4 lg:px-0">
-        <div className="grid gap-4 sm:grid-cols-3">
+      <div className="max-w-screen-lg mx-auto px-4 lg:px-0 flex flex-col items-center">
+        <div className="w-full grid gap-4 sm:grid-cols-3">
           {linkGroups.map((group, i) => (
             <div key={i}>
               <div className="md:text-lg text-rose-400 font-medium mb-2 text-center">{group.name}</div>
@@ -56,12 +56,15 @@ export default function Footer({}: Props) {
             </div>
           ))}
         </div>
-        <p className="pt-6 text-center text-gray-400">
-          &copy; {new Date().getFullYear()} Hynek Fišera | Vytvořeno pomocí{" "}
-          <a href="https://nextjs.org/" target="_blank" rel="noreferrer noopener">
-            Next.js
+        <a href="https://www.buymeacoffee.com/hynekfisera" target="_blank" rel="noreferrer noopener" className="inline-block mt-8 h-7">
+          <img className="h-full w-auto" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=hynekfisera&button_colour=f43f5e&font_colour=f1f5f9&font_family=Inter&outline_colour=000000&coffee_colour=f1f5f9" alt="Buy Me a Coffee" />
+        </a>
+        <div className="text-center text-gray-400 mt-2 font-medium text-xs">
+          &copy; {new Date().getFullYear()}{" "}
+          <a href="https://hynekfisera.cz/" target="_blank" rel="noreferrer noopener" className="underline">
+            Hynek Fišera
           </a>
-        </p>
+        </div>
       </div>
     </footer>
   );
