@@ -36,6 +36,11 @@ const temata: Array<{ nazev: string; typ: "video" | "serie"; odkaz: string }> = 
     odkaz: "https://youtu.be/w30tE2paIW4",
   },
   {
+    nazev: "ReactJS",
+    typ: "video",
+    odkaz: "https://youtu.be/GNfgV8iqD3g",
+  },
+  {
     nazev: "Domény, DNS a Cloudflare",
     typ: "video",
     odkaz: "https://youtu.be/pdx-93_JEqw",
