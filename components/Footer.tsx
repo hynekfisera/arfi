@@ -43,11 +43,11 @@ export default function Footer({}: Props) {
               <div className="flex flex-col gap-1">
                 {group.links.map((link) =>
                   link.href.startsWith("https://") ? (
-                    <a className="md:text-lg text-gray-300 hover:underline mx-auto text-center" href={link.href} target="_blank" rel="noreferrer noopener">
+                    <a className="md:text-lg text-gray-300 hover:underline mx-auto text-center" href={link.href} key={link.href} target="_blank" rel="noreferrer noopener">
                       {link.text}
                     </a>
                   ) : (
-                    <Link href={link.href}>
+                    <Link href={link.href} key={link.href}>
                       <a className="md:text-lg text-gray-300 hover:underline mx-auto text-center">{link.text}</a>
                     </Link>
                   )
