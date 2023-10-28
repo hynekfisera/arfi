@@ -51,6 +51,11 @@ const temata: Array<{ nazev: string; typ: "video" | "serie"; odkaz: string }> = 
     odkaz: "https://youtu.be/137Q6u4Ct1E",
   },
   {
+    nazev: "API a HTTP requesty",
+    typ: "video",
+    odkaz: "https://youtu.be/Tvo7THbglgs",
+  },
+  {
     nazev: "Vývoj vlastního Minecraft pluginu",
     typ: "serie",
     odkaz: "https://www.youtube.com/playlist?list=PLKkDvxLpWDX3ZvnuVHh2faaIlSdVE_jPc",
