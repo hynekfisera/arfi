@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  * {
+    @apply !scroll-smooth;
+  }
+
   .btn {
     @apply px-6 py-3 rounded-lg font-medium transition duration-200;
   }
@@ -12,7 +16,7 @@
   }
 
   .btn-primary {
-    @apply bg-rose-500/80 text-rose-50 hover:bg-rose-500/70;
+    @apply bg-rose-500/80 text-rose-50 hover:bg-rose-600/70;
   }
 
   .btn-cta {

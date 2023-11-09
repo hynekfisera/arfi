@@ -11,11 +11,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/playlist",
-        destination: "/#playlist",
-        permanent: true,
-      },
-      {
         source: "/youtube",
         destination: "https://youtube.com/phpMyArfi",
         permanent: true,
