@@ -90,17 +90,17 @@ const temata: Array<{ nazev: string; typ: "video" | "serie"; odkaz: string }> = 
 const Home: NextPage = () => {
   return (
     <main>
-      <section className="bg-gradient-to-b from-gray-700 to-gray-900">
+      <section className="bg-white bg-gradient-to-br from-pink-50 via-gray-50 to-gray-50">
         <div className="max-w-screen-xl mx-auto pt-32 pb-20 md:pt-40 flex flex-col gap-8 px-4 xl:px-0">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-center !leading-snug bg-gradient-to-br from-red-400 to-pink-600 bg-clip-text text-transparent max-w-5xl mx-auto">Nejrychlejší a nejjednodušší návody na weby, hry a servery.</h1>
-          <p className="text-lg sm:text-xl text-center !leading-relaxed text-gray-400 max-w-4xl mx-auto">
-            Ať už se chcete naučit programovat Minecraft pluginy, psát webové stránky, pracovat s Photoshopem nebo si třeba vytvořit a nastavit Discord server - a to vše bez sledování zbytečně natáhlého obsahu nad 10 minut - tak jste na tom správném místě.
-          </p>
-          <div className="flex flex-col items-center gap-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-8xl uppercase font-extrabold text-center sm:text-left !leading-tight tracking-wide bg-gradient-to-br from-red-400 to-pink-500 bg-clip-text text-transparent max-w-5xl font-barlow">
+            Nejrychlejší a nejjednodušší návody na weby, hry a servery.
+          </h1>
+          <p className="ml-1 text-lg sm:text-xl !leading-relaxed text-gray-500 max-w-4xl">Ať už se chcete naučit programovat Minecraft pluginy, psát webové stránky, pracovat s Photoshopem nebo si třeba vytvořit a nastavit Discord server tak jste na tom správném místě.</p>
+          <div className="flex flex-col items-start gap-4">
             <a href="https://youtube.com/phpMyArfi" target="_blank" rel="noreferrer noopener" className="btn btn-primary">
               Sledovat na YouTube <FontAwesomeIcon icon={faChevronRight} />
             </a>
-            <span className="text-sm text-gray-500">
+            <span className="ml-1 text-sm text-gray-500">
               Podívejte se i na můj{" "}
               <a href="https://www.youtube.com/channel/UCZV_3_FjyqSnwZhC4i1a8-A" target="_blank" rel="noreferrer noopener" className="underline">
                 druhý YouTube kanál
@@ -138,8 +138,8 @@ const Home: NextPage = () => {
             </ul>
             <p className="sm:text-lg text-gray-300">
               Úplné informace najdete{" "}
-              <Link href="/informace">
-                <a className="text-rose-400 underline">zde</a>
+              <Link href="/informace" className="text-rose-400 underline">
+                zde
               </Link>
             </p>
             <a className="btn btn-cta mr-auto" href="https://discord.gg/2Fs4pkpCcG" target="_blank" rel="noreferrer noopener">

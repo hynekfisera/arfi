@@ -47,8 +47,11 @@ export default function Footer({}: Props) {
                       {link.text}
                     </a>
                   ) : (
-                    <Link href={link.href} key={link.href}>
-                      <a className="md:text-lg text-gray-300 hover:underline mx-auto text-center">{link.text}</a>
+                    <Link
+                      href={link.href}
+                      key={link.href}
+                      className="md:text-lg text-gray-300 hover:underline mx-auto text-center">
+                      {link.text}
                     </Link>
                   )
                 )}
