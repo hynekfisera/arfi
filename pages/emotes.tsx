@@ -18,7 +18,7 @@ export default function Emotes({}: Props) {
             Stáhnout <FontAwesomeIcon icon={faDownload} />
           </>
         }
-        href="https://antalya.hynekfisera.com/files/Arfi/Emotikony/"
+        href="https://antalya.hynekfisera.com/files/Arfi/Emotikony/arfi_emotikony.zip"
         btnClassName="btn-emotes"
       />
     </main>
