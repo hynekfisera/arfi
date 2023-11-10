@@ -6,19 +6,20 @@ type Props = {};
 
 const linkGroups = [
   {
-    name: "Sociální sítě",
+    name: "Arfi",
     links: [
-      { text: "YouTube", href: youtubeChannelLink },
-      { text: "Instagram", href: "https://instagram.com/hynekfisera" },
-      { text: "Twitter", href: "https://twitter.com/hynekfisera" },
-      { text: "LinkedIn", href: "https://linkedin.com/in/hynekfisera" },
-      { text: "GitHub", href: "https://github.com/hynekfisera" },
+      { text: "Série návodů", href: "/" },
+      { text: "YouTube kanál", href: youtubeChannelLink },
+      { text: "Komunitní Discord", href: "/discord" },
+      { text: "Emotikony", href: "/emotes" },
+      { text: "DMCA-safe playlist", href: "/playlist" },
+      { text: "Podpora kanálu", href: "/donate" },
+      { text: "VWA.cz", href: "https://vwa.cz/" },
     ],
   },
   {
     name: "Discord server",
     links: [
-      { text: "O serveru", href: "/discord" },
       { text: "Připojit se", href: discordInviteLink },
       { text: "Informace", href: "/informace" },
       { text: "Pravidla", href: "/pravidla" },

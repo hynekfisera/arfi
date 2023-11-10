@@ -2,15 +2,17 @@ import React from "react";
 import MainSection from "../components/MainSection";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import { NextSeo } from "next-seo";
 
 type Props = {};
 
 export default function Donate({}: Props) {
   return (
     <main>
+      <NextSeo title="Donate" description="Pomohla vám videa, která tvořím? Zvažte prosím finanční podporu mé tvorby." />
       <MainSection
         title="Podpora kanálu"
-        description="Pomohla vám videa, který tvořím? Zvažte prosím finanční podporu mé tvorby."
+        description="Pomohla vám videa, která tvořím? Zvažte prosím finanční podporu mé tvorby."
         className="bg-gray-100 bg-gradient-to-br from-orange-100 via-gray-100 to-gray-100"
         titleClassName="from-amber-500 to-orange-500"
         text={

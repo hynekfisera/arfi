@@ -4,12 +4,14 @@ import { discordInviteLink } from "../resources/config";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 
 type Props = {};
 
 export default function Discord({}: Props) {
   return (
     <main>
+      <NextSeo title="Discord" description="Komunitní Discord server, kde případně poskytujeme pomoc k videím, pokud by vám něco nefungovalo, nebo se tam prostě můžete pobavit o programování a sdílet na čem pracujete vy." />
       <MainSection
         title="Arfi Discord server"
         description="Komunitní Discord server, kde případně poskytujeme pomoc k videím, pokud by vám něco nefungovalo, nebo se tam prostě můžete pobavit o programování a sdílet na čem pracujete vy."

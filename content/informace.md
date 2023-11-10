@@ -2,7 +2,7 @@
 
 ## Obecné
 
-Pokud toto čtete hned po připojení na můj komunitní Discord server tak vás tu mezi námi vítám! Zde najdete základní informace o tomto serveru. Narozdíl od těchto informací, které jsou hlavně pro vás, je třeba si přečíst [pravidla](/pravidla), která je nutná na serveru dodržovat.
+Pokud toto čtete hned po připojení na můj komunitní Discord server tak vás tu mezi námi vítám! Zde najdete základní informace o tomto serveru. Narozdíl od těchto informací, které jsou hlavně pro vás, je třeba si přečíst [pravidla](/discord/pravidla), která je nutná na serveru dodržovat.
 
 Pozvánka určena pro sdílení: [https://arfi.cz/discord](https://arfi.cz/discord)
 

@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
-import { faDiscord, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import Image, { StaticImageData } from "next/image";
 import VWA from "/public/content/vwa.jpeg";
 import Pluginy from "/public/content/pluginy.jpeg";
@@ -11,7 +9,7 @@ import Photoshop from "/public/content/photoshop.jpeg";
 import Minecraft from "/public/content/minecraft.webp";
 import Teamspeak from "/public/content/teamspeak.jpeg";
 import Discord from "/public/content/discord.jpeg";
-import { discordInviteLink, youtubeChannelLink } from "../resources/config";
+import { youtubeChannelLink } from "../resources/config";
 import MainSection from "../components/MainSection";
 
 type Content = {

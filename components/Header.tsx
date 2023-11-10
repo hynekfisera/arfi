@@ -17,7 +17,7 @@ type Link = {
 
 const links: Link[] = [
   {
-    text: "Obsah",
+    text: "Návody",
     href: "/",
   },
   {
@@ -25,12 +25,12 @@ const links: Link[] = [
     href: "/discord",
   },
   {
-    text: "Playlist",
-    href: "/playlist",
-  },
-  {
     text: "Emotikony",
     href: "/emotes",
+  },
+  {
+    text: "Playlist",
+    href: "/playlist",
   },
   {
     text: "Podpora",

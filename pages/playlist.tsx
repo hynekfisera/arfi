@@ -3,12 +3,14 @@ import MainSection from "../components/MainSection";
 import { spotifyPlaylistLink } from "../resources/config";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { NextSeo } from "next-seo";
 
 type Props = {};
 
 export default function Playlist({}: Props) {
   return (
     <main>
+      <NextSeo title="Playlist" description="Streamujete na Twitch a hledáte hudbu, kterou budete moct mít bez obav puštěnou v pozadí? Připravil jsem pro mě i pro vás 163+ hodinový playlist, který je pro tento účel vhodný." />
       <MainSection
         title="DMCA-safe playlist"
         description="Streamujete na Twitch a hledáte hudbu, kterou budete moct mít bez obav puštěnou v pozadí? Připravil jsem pro mě i pro vás 163+ hodinový playlist, který je pro tento účel vhodný."
