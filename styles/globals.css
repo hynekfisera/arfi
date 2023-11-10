@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+  * {
+    @apply !scroll-smooth;
+  }
+
   .btn {
-    @apply px-6 py-3 rounded-lg font-medium transition duration-200;
+    @apply px-6 py-3 rounded-lg text-sm sm:text-base font-medium transition duration-200;
   }
 
   .btn-s {
@@ -12,10 +16,22 @@
   }
 
   .btn-primary {
-    @apply bg-rose-500/80 text-rose-50 hover:bg-rose-500/70;
+    @apply bg-rose-500/80 text-rose-50 hover:bg-rose-600/70;
   }
 
-  .btn-cta {
-    @apply bg-indigo-500/80 text-rose-50 hover:bg-indigo-500/70;
+  .btn-discord {
+    @apply bg-indigo-500/80 text-indigo-50 hover:bg-indigo-600/70;
+  }
+
+  .btn-spotify {
+    @apply bg-green-500/80 text-green-50 hover:bg-green-600/70;
+  }
+
+  .btn-emotes {
+    @apply bg-pink-500/80 text-pink-50 hover:bg-pink-600/70;
+  }
+
+  .btn-donate {
+    @apply bg-orange-500/80 text-orange-50 hover:bg-orange-600/70;
   }
 }

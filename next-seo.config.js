@@ -6,6 +6,14 @@ module.exports = {
     type: "website",
     url: "https://www.arfi.cz/",
     site_name: "Arfi",
+    images: [
+      {
+        url: "https://www.arfi.cz/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Arfi",
+      },
+    ],
   },
   twitter: {
     handle: "@hynekfisera",

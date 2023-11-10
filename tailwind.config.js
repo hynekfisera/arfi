@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-geist-sans)", ...defaultTheme.fontFamily.sans],
+        barlow: ["var(--font-barlow-condensed)", ...defaultTheme.fontFamily.sans],
       },
     },
   },

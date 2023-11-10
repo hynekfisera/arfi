@@ -1,27 +1,24 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  transpilePackages: ["geist"],
   async redirects() {
     return [
       {
-        source: "/discord",
-        destination: "https://discord.gg/2Fs4pkpCcG",
-        permanent: true,
-      },
-      {
-        source: "/playlist",
-        destination: "/#playlist",
-        permanent: true,
-      },
-      {
         source: "/youtube",
-        destination: "https://youtube.com/phpMyArfi",
+        destination: "https://youtube.com/@phpMyArfi",
         permanent: true,
       },
       {
-        source: "/donate",
-        destination: "https://hynekfisera.cz/donate",
+        source: "/informace",
+        destination: "/discord/informace",
+        permanent: true,
+      },
+      {
+        source: "/pravidla",
+        destination: "/discord/pravidla",
         permanent: true,
       },
     ];

@@ -1,19 +1,19 @@
 import { NextSeo } from "next-seo";
 import fs from "fs";
 import path from "path";
-import Content from "../components/Content";
+import Content from "../../components/Content";
 
-export default function Informace({ content }: { content: string }) {
+export default function Pravidla({ content }: { content: string }) {
   return (
     <>
-      <NextSeo title="Informace" description="Informace o Arfi Discord serveru." />
+      <NextSeo title="Pravidla" description="Pravidla Arfi Discord serveru." />
       <Content content={content} />
     </>
   );
 }
 
 export async function getStaticProps() {
-  const title = "informace";
+  const title = "pravidla";
   const content = fs.readFileSync(path.join("content", title + ".md"), "utf-8");
 
   return {

@@ -8,16 +8,25 @@ import Footer from "../components/Footer";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import { GoogleAnalytics } from "nextjs-google-analytics";
+import { GeistSans } from "geist/font";
+import { Barlow_Condensed } from "next/font/google";
+
+const barlow = Barlow_Condensed({
+  weight: ["700"],
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+  variable: "--font-barlow-condensed",
+});
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div className={`${GeistSans.variable} ${barlow.variable} font-sans`}>
       <GoogleAnalytics trackPageViews />
       <DefaultSeo {...SEO} />
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </div>
   );
 }
 
