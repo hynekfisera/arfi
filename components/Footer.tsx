@@ -21,9 +21,9 @@ const linkGroups = [
     name: "Discord server",
     links: [
       { text: "Připojit se", href: discordInviteLink },
-      { text: "Informace", href: "/informace" },
-      { text: "Pravidla", href: "/pravidla" },
-      { text: "YouTube rank", href: "/informace#youtube-creator" },
+      { text: "Informace", href: "/discord/informace" },
+      { text: "Pravidla", href: "/discord/pravidla" },
+      { text: "YouTube rank", href: "/discord/informace#youtube-creator" },
     ],
   },
   {
