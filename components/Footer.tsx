@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { discordInviteLink, youtubeChannelLink } from "../resources/config";
 
 type Props = {};
 
@@ -7,7 +8,7 @@ const linkGroups = [
   {
     name: "Sociální sítě",
     links: [
-      { text: "YouTube", href: "https://youtube.com/phpMyArfi" },
+      { text: "YouTube", href: youtubeChannelLink },
       { text: "Instagram", href: "https://instagram.com/hynekfisera" },
       { text: "Twitter", href: "https://twitter.com/hynekfisera" },
       { text: "LinkedIn", href: "https://linkedin.com/in/hynekfisera" },
@@ -17,7 +18,8 @@ const linkGroups = [
   {
     name: "Discord server",
     links: [
-      { text: "Připojit se", href: "https://discord.gg/2Fs4pkpCcG" },
+      { text: "O serveru", href: "/discord" },
+      { text: "Připojit se", href: discordInviteLink },
       { text: "Informace", href: "/informace" },
       { text: "Pravidla", href: "/pravidla" },
       { text: "YouTube rank", href: "/informace#youtube-creator" },
@@ -27,6 +29,7 @@ const linkGroups = [
     name: "Ostatní",
     links: [
       { text: "Kontakt", href: "mailto:hynek@flairleap.com" },
+      { text: "Osobní web", href: "https://hynekfisera.cz/" },
       { text: "Zpět nahoru", href: "#top" },
     ],
   },

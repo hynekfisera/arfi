@@ -8,7 +8,7 @@
   }
 
   .btn {
-    @apply px-6 py-3 rounded-lg font-medium transition duration-200;
+    @apply px-6 py-3 rounded-lg text-sm sm:text-base font-medium transition duration-200;
   }
 
   .btn-s {
@@ -20,6 +20,6 @@
   }
 
   .btn-cta {
-    @apply bg-indigo-500/80 text-rose-50 hover:bg-indigo-500/70;
+    @apply bg-indigo-500/80 text-rose-50 hover:bg-indigo-600/70;
   }
 }

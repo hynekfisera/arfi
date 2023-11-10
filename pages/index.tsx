@@ -11,6 +11,7 @@ import Photoshop from "/public/content/photoshop.jpeg";
 import Minecraft from "/public/content/minecraft.webp";
 import Teamspeak from "/public/content/teamspeak.jpeg";
 import Discord from "/public/content/discord.jpeg";
+import { discordInviteLink, youtubeChannelLink } from "../resources/config";
 
 type Content = {
   image: StaticImageData;
@@ -36,7 +37,7 @@ const content: Content[] = [
     image: PHP,
     title: "PHP",
     description: "Jako pokračování série Jak vytvořit web jsou tu návody na PHP, neboli jazyk díky kterému můžete na webu vytvořit třeba přihlašování.",
-    href: "https://youtube.com/playlist?list=PLKkDvxLpWDX30NNTvIrqCq-R43Lf1rtM9",
+    href: "https://www.youtube.com/playlist?list=PLKkDvxLpWDX30NNTvIrqCq-R43Lf1rtM9",
   },
   {
     image: Photoshop,
@@ -68,20 +69,18 @@ const Home: NextPage = () => {
   return (
     <main>
       <section className="bg-gray-100 bg-gradient-to-br from-pink-100 via-gray-100 to-gray-100">
-        <div className="max-w-screen-xl mx-auto pt-32 pb-20 md:pt-40 flex flex-col gap-8 px-4 xl:px-0">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-8xl uppercase font-extrabold text-center sm:text-left !leading-tight tracking-wide bg-gradient-to-br from-red-400 to-pink-500 bg-clip-text text-transparent max-w-5xl font-barlow">
-            Nejrychlejší a nejjednodušší návody na weby, hry a servery.
-          </h1>
-          <p className="ml-1 text-lg sm:text-xl !leading-relaxed text-gray-500 max-w-4xl">Ať už se chcete naučit programovat Minecraft pluginy, psát webové stránky, pracovat s Photoshopem nebo si třeba vytvořit a nastavit Discord server tak jste na tom správném místě.</p>
-          <div className="ml-1 flex flex-col items-start gap-4">
-            <a href="https://youtube.com/@phpMyArfi" target="_blank" rel="noreferrer noopener" className="btn btn-primary">
+        <div className="max-w-screen-xl mx-auto pt-32 pb-20 md:pt-40 flex flex-col items-center sm:items-start gap-8 px-6 xl:px-0">
+          <h1 className="text-4xl lg:text-5xl xl:text-8xl uppercase font-extrabold text-center sm:text-left !leading-tight tracking-wide bg-gradient-to-br from-red-400 to-pink-500 bg-clip-text text-transparent max-w-5xl font-barlow">Nejrychlejší a nejjednodušší návody na weby, hry a servery.</h1>
+          <p className="sm:ml-1 sm:text-xl !leading-relaxed text-gray-500 max-w-4xl text-center sm:text-left">Ať už se chcete naučit programovat Minecraft pluginy, psát webové stránky, pracovat s Photoshopem nebo si třeba vytvořit a nastavit Discord server tak jste na tom správném místě.</p>
+          <div className="sm:ml-1">
+            <a href={youtubeChannelLink} target="_blank" rel="noreferrer noopener" className="btn btn-primary">
               Sledovat na YouTube <FontAwesomeIcon icon={faChevronRight} />
             </a>
           </div>
         </div>
       </section>
       <section className="bg-gray-100">
-        <div className="max-w-screen-xl mx-auto py-8 px-4 xl:px-0">
+        <div className="max-w-screen-xl mx-auto py-8 px-6 xl:px-0">
           <h2 className="pb-8 text-3xl md:text-4xl text-gray-700 text-center">Co se chcete naučit?</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {content.map((tema, i) => (
@@ -115,7 +114,7 @@ const Home: NextPage = () => {
                 zde
               </Link>
             </p>
-            <a className="btn btn-cta mr-auto" href="https://discord.gg/2Fs4pkpCcG" target="_blank" rel="noreferrer noopener">
+            <a className="btn btn-cta mr-auto" href={discordInviteLink} target="_blank" rel="noreferrer noopener">
               <FontAwesomeIcon icon={faDiscord} /> Připojit se
             </a>
           </div>
