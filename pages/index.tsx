@@ -86,7 +86,9 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {content.map((tema, i) => (
               <div key={i} className="flex flex-col gap-2">
-                <Image src={tema.image} alt={tema.title} className="rounded-xl border border-gray-500/20 shadow-md w-auto h-auto m-6" />
+                <div className="p-6">
+                  <Image src={tema.image} alt={tema.title} className="rounded-xl border border-gray-500/20 shadow-md" />
+                </div>
                 <div className="text-lg font-medium text-gray-800">{tema.title}</div>
                 <div className="text-gray-500">{tema.description}</div>
                 <a href={tema.href} target="_blank" rel="noreferrer noopener" className="text-lg mr-auto text-indigo-500 hover:text-indigo-600 transition duration-200">
