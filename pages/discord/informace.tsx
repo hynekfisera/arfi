@@ -1,7 +1,7 @@
 import { NextSeo } from "next-seo";
 import fs from "fs";
 import path from "path";
-import Content from "../components/Content";
+import Content from "../../components/Content";
 
 export default function Informace({ content }: { content: string }) {
   return (

@@ -11,6 +11,16 @@ const nextConfig = {
         destination: "https://youtube.com/@phpMyArfi",
         permanent: true,
       },
+      {
+        source: "/informace",
+        destination: "/discord/informace",
+        permanent: true,
+      },
+      {
+        source: "/pravidla",
+        destination: "/discord/pravidla",
+        permanent: true,
+      },
     ];
   },
 };

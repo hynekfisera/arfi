@@ -45,7 +45,7 @@ export default function Header() {
     <header className={`absolute top-0 left-0 right-0 py-6 px-4 xl:py-8 xl:px-0 ${visible ? "bg-white" : "bg-transparent"} sm:bg-transparent`}>
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 xl:px-0">
         <div className="h-10 w-10">
-          <Link href="/" className="opacity-80 hover:opacity-70 transition duration-200">
+          <Link href="/" className="opacity-80 hover:opacity-70 transition duration-200" onClick={() => setVisible(false)}>
             <Image src={ArfiLogo} alt="Arfi logo" priority={true} />
           </Link>
         </div>
