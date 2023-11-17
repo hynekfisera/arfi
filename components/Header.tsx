@@ -54,12 +54,12 @@ export default function Header() {
         </button>
         <div className={`flex-col sm:flex-row absolute left-0 right-0 top-[100%] sm:static bg-white sm:bg-transparent items-end sm:items-center p-8 pt-0 sm:p-0 gap-4 border-b border-gray-300 sm:border-none ${visible ? "flex" : "hidden"} sm:!flex`}>
           {links.map((link, i) => (
-            <NavLink key={i} href={link.href} external={link.external} className="text-gray-900 hover:text-indigo-600 transition duration-200" onClick={() => setVisible(false)}>
+            <NavLink key={i} href={link.href} external={link.external} className="text-gray-900 hover:text-gray-500 transition duration-200" onClick={() => setVisible(false)}>
               {link.text}
             </NavLink>
           ))}
           <div className="flex flex-row gap-2 text-lg">
-            <a href={youtubeChannelLink} target="_blank" rel="noreferrer noopener" aria-label="YouTube" className="text-indigo-500 sm:text-gray-500 sm:hover:text-indigo-500 transition duration-200">
+            <a href={youtubeChannelLink} target="_blank" rel="noreferrer noopener" aria-label="YouTube" className="text-red-500 sm:text-gray-500 sm:hover:text-red-500 transition duration-200">
               <FontAwesomeIcon icon={faYoutube} />
             </a>
             <a href={discordInviteLink} target="_blank" rel="noreferrer noopener" aria-label="Discord" className="text-indigo-500 sm:text-gray-500 sm:hover:text-indigo-500 transition duration-200">

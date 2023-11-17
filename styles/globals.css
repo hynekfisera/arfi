@@ -20,7 +20,7 @@
   }
 
   .btn-discord {
-    @apply bg-indigo-500/80 text-indigo-50 hover:bg-indigo-600/70;
+    @apply bg-indigo-500/80 text-indigo-50 hover:bg-indigo-600/75;
   }
 
   .btn-spotify {
